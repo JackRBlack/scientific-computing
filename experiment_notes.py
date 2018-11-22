@@ -81,3 +81,69 @@ def reaction_substances_mass(molar_mass, molar_ratio, mass_needed):
     masses_needed = mass_needed / masses[0] * masses
     masses_needed = np.round(masses_needed, 4)
     return masses_needed[1:]
+
+def XRD_scan_reader(FILEPATH):
+    '''
+        Read the XRD scanning data from the txt file.
+        
+        Author: Wenjie Chen 
+        E-mail: wenjiechen@pku.edu.cn
+        
+        args:
+            FILEPATH : [string] The path of the data file.
+            
+        returns:
+            (tt, counts) : [tupple] Two numpy arrays of data.
+            
+        example:
+            (tt, counts) = XRD_scan_reader("./data/templateDataFile.txt")
+    '''
+    import numpy as np
+    import csv
+
+    datablock = []
+    
+    # read data
+    with open(FILEPATH, newline='') as data_file:
+        data_text = data_file.read()
+        data_csv = data_text.split("[Data]")[0]
+        spamreader = csv.reader(data_csv.splitlines(), delimiter=',', quotechar='|')
+        line_num = 0
+        for row in spamreader:
+            if line_num == 0:
+                print(f'Column names are {", ".join(row)}')
+            else:
+                datablock.append([float(row[0]), float(row[1])])
+            line_num = line_num + 1
+        print(f'Processed {line_num} lines.')
+    
+    # process data
+    datablock = np.transpose(np.array(datablock))
+    
+    return (datablock[0], datablock[1])
+
+def XRD_scan_curve(tt, counts):
+    '''
+        Plot the XRD curve.
+        
+        Author: Wenjie Chen 
+        E-mail: wenjiechen@pku.edu.cn
+        
+        args:
+            tt : [numpy.array] 2theta data.
+            counts : [numpy.array] Counts data.
+            
+        returns:
+            A figure.
+            
+        example:
+            XRD_scan_curve(tt, counts)
+    '''
+    import matplotlib.pyplot as plt
+    plt.figure(figsize = (14, 7))
+    plt.plot(tt, counts)
+    plt.xlabel('$2 \\theta$ / degree')
+    plt.ylabel('counts')
+    plt.title('XRD result')
+    plt.show()
+    return

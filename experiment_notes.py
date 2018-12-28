@@ -24,9 +24,9 @@ def heating_curve(time_series, temperature_series, TIME_UNIT):
     T_series = temperature_series.copy()
     for i in range(len(t_series) - 1):
         t_series[i + 1] = t_series[i + 1] + t_series[i]
-    scale = {'min' : 1, 'h' : 60}
+    scale = {'min' : 1, 'h' : 60, 'd' : 1440}
     t_series = t_series / scale[TIME_UNIT]
-    t_series_str = tuple([str(t) for t in t_series])
+    t_series_str = tuple([str(t) for t in np.round(t_series, 2)])
     T_series_str = tuple([str(T) for T in T_series])
     
     plt.figure(figsize = (10, 5))

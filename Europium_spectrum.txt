@@ -1,0 +1,94 @@
+   11             3811.33           Eu I       MCS75
+  600    P,c,w    3819.67           Eu II      MCS75
+   15             3865.57           Eu I       MCS75
+   14             3884.75           Eu I       MCS75
+  500    P,c,w    3907.10           Eu II      MCS75
+   20             3917.29           Eu I       MCS75
+  500    P,c,w    3930.48           Eu II      MCS75
+  500    P,c,w    3971.96           Eu II      MCS75
+   11             4039.19           Eu I       MCS75
+  600    P,c,w    4129.70           Eu II      MCS75
+   10             4182.22           Eu I       MCS75
+ 1000    P,c,w    4205.05           Eu II      MCS75
+   14             4298.73           Eu I       MCS75
+    4             4355.09           Eu II      MCS75
+  250    P,c,w    4435.56           Eu II      MCS75
+   50    P        4522.57           Eu II      MCS75
+ 1000    P        4594.03           Eu I       MCS75
+  900    P        4627.22           Eu I       MCS75
+  800    P        4661.88           Eu I       MCS75
+   10             4867.62           Eu I       MCS75
+   14             4907.18           Eu I       MCS75
+   15             4911.40           Eu I       MCS75
+   15             5013.17           Eu I       MCS75
+   15             5022.91           Eu I       MCS75
+   10             5029.54           Eu I       MCS75
+   15             5114.37           Eu I       MCS75
+   15             5129.10           Eu I       MCS75
+   20             5133.52           Eu I       MCS75
+   25             5160.07           Eu I       MCS75
+   20             5166.70           Eu I       MCS75
+   20             5199.85           Eu I       MCS75
+   10             5200.96           Eu I       MCS75
+   11             5206.44           Eu I       MCS75
+   70    P        5215.10           Eu I       MCS75
+   25             5223.49           Eu I       MCS75
+   11             5239.24           Eu I       MCS75
+   20             5266.40           Eu I       MCS75
+   40             5271.96           Eu I       MCS75
+   10             5272.48           Eu I       MCS75
+   14             5282.82           Eu I       MCS75
+   11             5291.26           Eu I       MCS75
+   11             5294.64           Eu I       MCS75
+   50    P        5357.61           Eu I       MCS75
+   11             5361.61           Eu I       MCS75
+   10             5376.94           Eu I       MCS75
+   11             5392.94           Eu I       MCS75
+   40             5402.77           Eu I       MCS75
+   30             5451.51           Eu I       MCS75
+   25             5452.94           Eu I       MCS75
+   11             5488.65           Eu I       MCS75
+   11             5510.52           Eu I       MCS75
+   20             5547.44           Eu I       MCS75
+   14             5570.33           Eu I       MCS75
+   20             5577.14           Eu I       MCS75
+   11             5580.03           Eu I       MCS75
+   20             5645.80           Eu I       MCS75
+   30             5765.20           Eu I       MCS75
+   15             5783.69           Eu I       MCS75
+   50    P,c,w    5830.98           Eu I       MCS75
+    6             5966.07           Eu II      MCS75
+   40    c,w      5967.10           Eu I       MCS75
+   15             5972.75           Eu I       MCS75
+   20             5992.83           Eu I       MCS75
+   10             6012.56           Eu I       MCS75
+   40             6018.15           Eu I       MCS75
+   15             6029.00           Eu I       MCS75
+    7             6049.51           Eu II      MCS75
+   13             6057.36           Eu I       MCS75
+   20             6083.84           Eu I       MCS75
+   20             6099.35           Eu I       MCS75
+   11             6118.78           Eu I       MCS75
+    6             6173.05           Eu II      MCS75
+   10             6178.76           Eu I       MCS75
+   25    c,w      6188.13           Eu I       MCS75
+   13             6195.07           Eu I       MCS75
+   20             6262.25           Eu I       MCS75
+   15             6299.77           Eu I       MCS75
+    4             6303.41           Eu II      MCS75
+   11    c,w      6350.04           Eu I       MCS75
+   11    c,w      6400.93           Eu I       MCS75
+   15             6410.04           Eu I       MCS75
+   13             6411.32           Eu I       MCS75
+   14             6437.64           Eu II      MCS75
+   11             6457.96           Eu I       MCS75
+   25             6645.11           Eu II      MCS75
+   13             6802.72           Eu I       MCS75
+   30             6864.54           Eu I       MCS75
+   11             7040.20           Eu I       MCS75
+    6             7077.10           Eu II      MCS75
+   10             7194.81           Eu II      MCS75
+   10             7217.55           Eu II      MCS75
+    9             7301.17           Eu II      MCS75
+   12             7370.22           Eu II      MCS75
+    5             7426.57           Eu II      MCS75
